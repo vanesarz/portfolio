@@ -10,7 +10,7 @@ function Home() {
                 <div className="row">
                     <div className="home-info padd-15">
                         <h3 className="hello">Hello, my name is <span className="name">Vanesa Rizka Alfatihah</span></h3>
-                        <h3 className="my-profession">I'm a <span className="typing">Information System Student</span></h3>
+                        <h3 className="my-profession">I'm an <span className="typing">Information System Student</span></h3>
                         <p>I am a student with an interest in leadership development, teamwork, and technical skills. I use an organizational and detail-oriented approach in every task, along with effective communication skills for optimal collaboration.</p>
                         <a href="/contact" className="btn hire-me">Hire me</a>
                     </div>
