@@ -1,0 +1,25 @@
+/* font-family: 'Poppins' sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+/* font-family: 'Clicker Script', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script:wght@400&display=swap');
+
+:root {
+    --skin-color: #2356b6;
+    --bg-black-900: #f2f2fc;
+    --bg-black-100: #fdf9ff;
+    --bg-black-50: #e8dfec;
+    --text-black-900: #302e4d;
+    --text-black-700: #504e70;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --skin-color: #6b9cff;
+        --bg-black-900: #0d0d03;
+        --bg-black-100: #020600;
+        --bg-black-50: #172013;
+        --text-black-900: #cfd1b2;
+        --text-black-700: #afb18f;
+    }
+}

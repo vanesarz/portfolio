@@ -1,0 +1,121 @@
+hr {
+  position: relative;
+  float: right;
+  margin-top: -35px;
+}
+
+#kontak h3 {
+  color: var(--skin-color);
+  text-align: center;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+::selection {
+  color: inherit;
+  background: var(--bg-black-50);
+}
+
+fieldset {
+  height: auto;
+  width: 30%;
+  text-align: center;
+  padding-bottom: 20px;
+  margin: auto;
+}
+
+#kontak {
+  min-height: 50px;
+  height: auto;
+  width: 30%;
+  text-align: center;
+  border: none;
+  margin-bottom: 10px;
+}
+
+input:focus, textarea:focus, .textarea:focus {
+  border: dashed var(--skin-color) 1px;
+}
+
+input[type=text], textarea, .textarea {
+  padding: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+form, #name {
+  margin: auto;
+}
+
+.email, .namee {
+  height: 40px;
+  width: 75%;
+  background-color: var(--bg-black-100);
+  border-radius: 10px;
+  border: solid var(--skin-color) 1px;
+  margin-top: 10px;
+  padding-left: 2px;
+  color: var(--skin-color);
+}
+
+#iconnn {
+  color: var(--bg-black-100);
+  font-size: 18px;
+  text-align: center;
+  padding-top: 10px;
+  right: 7px;
+  background-color: var(--skin-color);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+textarea {
+  max-height: 200px;
+  height: 40px;
+  /* max-width: 380px;
+  min-width: 380px;
+  width: 87%; */
+  background-color: var(--bg-black-100);
+  margin-top: 10px;
+  color: var(--skin-color);
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.textarea {
+  display: block;
+  max-width: 342px;
+  min-width: 342px;
+  width: 87%;
+  border-radius: 10px;
+  border: solid var(--skin-color) 1px;
+  overflow: hidden;
+  resize: both;
+  min-height: 40px;
+  max-height: 420px;
+  line-height: 16px;
+  margin-left: 30px;
+  font-size: 13px;
+  color: var(--skin-color);
+  text-align: left;
+}
+
+.textarea[contenteditable]:empty::before {
+  content: "Enter message";
+  color: rgba(92, 161, 255, 0.5);
+}
+
+.contact {
+  height: 40px;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 10px;
+  margin: auto;
+}
+
+::placeholder {
+  color: var(--skin-color);
+  opacity: 50%;
+}
